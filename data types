@@ -1,0 +1,14 @@
+Data types in SQL:
+
+VARCHAR2(size) - to store alphanumeric values, size 1-4000
+CHAR(size) - to store character values, size 1-2000, size=1 is default
+NUMBER (p,s) - to store numeric values where p is precision and s is scale(decimal places after point)
+DATE - to store date and time values
+
+LONG - to store variable character(alphanumeric) values upto 2GB 
+CLOB - character data upto 4GB
+BFILE - stores location of external file from outside DB upto 4GB
+RAW - raw binary data upto 2000 
+LONG RAW - raw binary data upto 2GB
+BLOB - object data type, binary large objects, refernce or pointer to an object, file/image/audio/video etc., upto 4GB
+ROWID - 64 base number system representing unique address of a row in its table
